@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import MovieCard from "./MovieCard";
+import DarkModeToggle from "./DarkModeToggle";
 import { FaSearch } from 'react-icons/fa';
 import "./App.css";
 
@@ -23,7 +24,7 @@ const App = () => {
 
     return (
         <div className="app">
-
+            <DarkModeToggle />
             <h1>Poster Finder</h1>
 
             <div className="search">
@@ -32,7 +33,7 @@ const App = () => {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 onKeyDown={(e) => {
-                    if (e.key == 'Enter') {
+                    if (e.key === 'Enter') {
                         searchMovies(searchTerm);
                     } 
                 }}
@@ -59,6 +60,7 @@ const App = () => {
                     <h2>0 results for {searchTerm} </h2>    
                 </div>
             )}
+       
     </div>
     );
 };
