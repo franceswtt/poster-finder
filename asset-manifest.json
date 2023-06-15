@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/poster-finder/static/css/main.47849656.css",
+    "main.js": "/poster-finder/static/js/main.37b97f56.js",
+    "index.html": "/poster-finder/index.html",
+    "main.47849656.css.map": "/poster-finder/static/css/main.47849656.css.map",
+    "main.37b97f56.js.map": "/poster-finder/static/js/main.37b97f56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47849656.css",
+    "static/js/main.37b97f56.js"
+  ]
+}
